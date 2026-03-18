@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Loja Geek</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+</head>
+
+<body>
+    <header>
+        <h1>Cyber Point 🎮</h1>
+        <h2 class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-cart" viewBox="0 0 16 16">
+                <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg> Carrinho:0</h2>
+    </header>
+
+    <section>
+
+        <section class="sobre-loja">
+    <div class="sobre-content">
+        <h2 class="h2-sobre">Sobre a Cyber Point</h2>
+        <p>Na Cyber Point, acreditamos que todo jogador, colecionador e fã de cultura pop merece um refúgio épico. Mais do que uma loja, somos o seu inventário da vida real: do setup de última geração aos itens raros que contam a sua história.</p>
+        <p>Se o seu objetivo é subir de nível no conforto ou na decoração, você acaba de encontrar o local de respawn perfeito. Venha equipar sua jornada!</p>
+    </div>
+
+    <img src="../img/detetive.png" alt="Detetive Cyber Point" class="sobre-img">
+</section>
+
+
+    
+<!-- Conteúdo principal da loja -->
+    <h1 class="h1-prod">Produtos</h1>
+    <main>
+
+
+        <section class="produtos">
+            <div class="card">
+                <img src="../img/Monitor-Gamer-Samsung-24- FHD-120-Hz-HDMI-Preto-S3.png" alt="">
+                <h2>Monitor gamer Sansung 24</h2>
+                <p>Preço: 608.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="../img/Teclado-Mecânico-Gamer-Ergonômico-Anti-ghosting-Arco-íris-Te125.png" alt="">
+                <h2>Teclado Mecânico Gamer Ergonômico</h2>
+                <p>Preço: 159.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+            </div>
+            <div class="card">
+                <img src="../img/Mouse Gamer com Fio Attack Shark R1 Ultraleve e design Ergonômico.png" alt="">
+                <h2>Mouse Gamer com Fio Attack Shark R1</h2>
+                <p>Preço: 89.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="../img/Mousepad-Gamer-Speed-Extra-Grande-60x30-Dragão-Dark-Cor-Preto.png" alt="">
+                <h2>MousePad Gamer Speed Extra Grande</h2>
+                <p>Preço: 27.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+
+            </div>
+        </section>
+
+        <section class="produtos">
+
+            <div class="card">
+                <img src="../img/cadeira-gamer.png" alt="">
+                <h2>Caderia Gamer</h2>
+                <p>Preço: 150.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+
+            </div>
+
+
+            <div class="card">
+                <img src="../img/funko_goku.png" alt="">
+                <h2>Funko Pop Goku</h2>
+                <p>Preço: 85.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+
+            </div>
+            <div class="card">
+                <img src="../img/funko_goku_Black.png" alt="">
+                <h2>Funko Pop Goku Black SSJ Rose</h2>
+                <p>Preço: 130.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+
+            </div>
+            <div class="card">
+                <img src="../img/hq-homem-aranha.png" alt="">
+                <h2>HQ HOMEM ARANHA: A saga do homem aranha</h2>
+                <p>Preço: 51.00</p>
+                <button class="btn" id="cart-element">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="carrinho">
+        <div class="cart-items">
+            <h2>Resumo Do Carrinho</h2>
+            <div id="itens-lista"></div>
+            <div class="total">
+                <h3>Total: <span id="total-preco">R$ 0,00</span></h3>
+                <button id="limpar-carrinho">Limpar Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p> copyright © 2024-2026 Loja Geek. Todos os direitos reservados.</p>
+    </footer>
+
+
+
+
+
+    <script src='../js/carrinho.js'></script>
+</body>
+
+</html>
